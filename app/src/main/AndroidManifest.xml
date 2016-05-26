@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fia.ues.sv.basedatosdr12004">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BaseDatosDR12004Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menus.AlumnoMenuActivity" />
+        <activity android:name=".Menus.NotaMenuActivity" />
+        <activity android:name=".Menus.MateriaMenuActivity" />
+        <activity android:name=".AlumnoInsertarActivity" />
+        <activity android:name=".AlumnoEliminarActivity" />
+        <activity android:name=".AlumnoActualizarActivity" />
+        <activity android:name=".AlumnoConsultarActivity" />
+        <activity android:name=".NotaInsertarActivity" />
+        <activity android:name=".NotaEliminarActivity" />
+        <activity android:name=".NotaActualizarActivity" />
+        <activity android:name=".NotaConsultarActivity" />
+        <activity android:name=".MateriaInsertarActivity" />
+        <activity android:name=".MateriaEliminarActivity" />
+        <activity android:name=".MateriaActualizarActivity" />
+        <activity android:name=".MateriaConsultarActivity"></activity>
+    </application>
+
+</manifest>
